@@ -2,6 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import Count from './Components/Count';
+import Portal from './Components/Portal';
+
 
 function App() {
   return (
@@ -50,6 +53,8 @@ function App() {
             React Redux
           </a>
         </span>
+        <Count></Count>
+        <Portal></Portal>
       </header>
     </div>
   );
